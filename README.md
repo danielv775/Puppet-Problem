@@ -18,6 +18,7 @@ Local Machine OS: Mac OSX El Capitan Version 10.11.6
 1. Pull the source code from this repo. Ensure you have "envenv/sub_env/manifests/puppet\_excercise.pp" 
    and "Vagrantfile" in the same directory.
 2. vagrant up --provider virtualbox
+   
    The above command will start a VM using ubuntu 16.04, more specifically (ubuntu-16.04-64-puppet)
 3. Using the Vagrantfile and the puppet_excercise.pp manifest file, the Nginx webserver will install on 
    the localhost and listen for requests on port 8000. 
@@ -43,5 +44,5 @@ Local Machine OS: Mac OSX El Capitan Version 10.11.6
 
 4. Briefly explain what automation means to you, and why it is important to an organization's  
    infrastructure design strategy.
-   
+
    To me automation is about making infrastructure design as efficient as possible. Specifically for technical organizations, automation is critical to an organization's infrastructure design strategy. If setting up a complex development environment can be as easy a executing one script, or using one puppet manifest file, more time can be spent on developing the product. 
