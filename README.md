@@ -17,16 +17,17 @@ Local Machine OS: Mac OSX El Capitan Version 10.11.6
 
 1. Pull the source code from this repo. Ensure you have "envenv/sub_env/manifests/puppet\_excercise.pp" 
    and "Vagrantfile" in the same directory.
-2. '''vagrant up --provider virtualbox'''
+2. 'vagrant up --provider virtualbox'
    
    The above command will start a VM using ubuntu 16.04, more specifically (ubuntu-16.04-64-puppet)
 3. Using the Vagrantfile and the puppet_excercise.pp manifest file, the Nginx webserver will install on 
    the localhost and listen for requests on port 8000. 
-4. '''vagrant ssh'''
-5. To verify the correct webpage [title](https://raw.githubusercontent.com/puppetlabs/exercise-
-   webpage/master/index.html) is being hosted, run the command "curl http://localhost:8000". This will return the html of the webpage.
-6. Additonally, the command '''systemctl status nginx''' can be used to verify the server is running.
-7. To reconfigure the server , run the command '''puppet apply puppet_excercise.pp'''. Whatever the   
+4. 'vagrant ssh'
+5. To verify the correct 
+   [webpage](https://raw.githubusercontent.com/puppetlabs/exercise-webpage/master/index.html) is being  
+   hosted, run the command "curl http://localhost:8000". This will return the html of the webpage.
+6. Additonally, the command 'systemctl status nginx' can be used to verify the server is running.
+7. To reconfigure the server , run the command 'puppet apply puppet_excercise.pp'. Whatever the   
    system state, this will reconfigure everything as described in the manifest file.
 
 #Questions 
