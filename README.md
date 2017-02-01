@@ -40,7 +40,7 @@ Local Machine OS: Mac OSX El Capitan Version 10.11.6
 
 3. Where did you go to find information to help you in the build process?
 
-   Reading through docs on puppet.com, vagrant.com, and googling unique and unexpected errors which would usually direct me to github.com or stackoverflow.com
+   Reading through docs on puppet.com, vagrant.com, nginx.com and googling unique and unexpected errors which would usually direct me to github.com or stackoverflow.com
 
 4. Briefly explain what automation means to you, and why it is important to an organization's  
    infrastructure design strategy.
